@@ -33,7 +33,10 @@ final class SoftwareEngineer
     public string $experience = '20+ years';
 
     public array $stack = [
-        'frontend'       => ['HTML5', 'CSS', 'JavaScript', 'Tailwind CSS', 'Bootstrap', 'Sass', 'Alpine.js', 'jQuery'],
+        'frontend'       => [
+            'HTML5', 'CSS', 'JavaScript', 'Tailwind CSS',
+            'Bootstrap', 'Sass', 'Alpine.js', 'jQuery',
+        ],
         'backend'        => ['PHP', 'Laravel', 'C#', '.NET', 'MySQL', 'REST APIs'],
         'platforms'      => ['WHMCS'],
         'infrastructure' => ['Linux', 'Nginx', 'Apache', 'Cloudflare', 'Git', 'Composer'],
